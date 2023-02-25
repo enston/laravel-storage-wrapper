@@ -1,6 +1,6 @@
 <?php
 
-namespace MyintOo\LaravelStorageWrapper\Interfaces;
+namespace Enston\LaravelStorageWrapper\Interfaces;
 
 interface StorageDriverInterface
 {
@@ -13,7 +13,7 @@ interface StorageDriverInterface
 
     /** alias of @put method */
     public function upload(string $in, \Illuminate\Http\File|\Illuminate\Http\UploadedFile|string $contents, mixed $options = []): bool;
-    
+
     /** alias of @put method */
     public function uploadFile(string $in, \Illuminate\Http\File|\Illuminate\Http\UploadedFile|string $contents, mixed $options = []): bool;
 

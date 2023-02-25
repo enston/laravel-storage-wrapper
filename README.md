@@ -3,12 +3,10 @@ A wrapper for laravel storage using interface. A small package meant to solve ha
 
 ## Installation
 ```
-composer require myint-oo/laravel-storage-wrapper
+composer require enston/laravel-storage-wrapper
 ```
 
 To publish config
 ```
 php artisan vendor:publish --tag laravel-storage-wrapper
 ```
-
-

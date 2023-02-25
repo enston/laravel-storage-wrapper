@@ -1,8 +1,8 @@
 <?php
 
-namespace MyintOo\LaravelStorageWrapper\Drivers;
+namespace Enston\LaravelStorageWrapper\Drivers;
 
-use MyintOo\LaravelStorageWrapper\Interfaces\StorageDriverInterface;
+use Enston\LaravelStorageWrapper\Interfaces\StorageDriverInterface;
 
 class DigitalOceanSpaceStorageDriver implements StorageDriverInterface
 {

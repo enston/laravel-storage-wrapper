@@ -1,5 +1,5 @@
 {
-    "name": "myint-oo/laravel-storage-wrapper",
+    "name": "enston/laravel-storage-wrapper",
     "description": "A wrapper for laravel storage using interface. A small package meant to solve having to do all the for cloud storage setup work in each of the projects",
     "license": "MIT",
     "authors": [
@@ -10,7 +10,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "MyintOo\\LaravelStorageWrapper\\": "src/"
+            "Enston\\LaravelStorageWrapper\\": "src/"
         }
     },
     "require": {
@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "MyintOo\\LaravelStorageWrapper\\Providers\\LaravelStorageWrapperServiceProvider"
+                "Enston\\LaravelStorageWrapper\\Providers\\LaravelStorageWrapperServiceProvider"
             ]
         }
     }

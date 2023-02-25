@@ -1,6 +1,6 @@
 <?php
 
-use MyintOo\LaravelStorageWrapper\Drivers\DigitalOceanSpaceStorageDriver;
+use Enston\LaravelStorageWrapper\Drivers\DigitalOceanSpaceStorageDriver;
 
 return [
 

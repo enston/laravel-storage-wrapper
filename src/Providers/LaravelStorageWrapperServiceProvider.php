@@ -1,9 +1,9 @@
 <?php
 
-namespace MyintOo\LaravelStorageWrapper\Providers;
+namespace Enston\LaravelStorageWrapper\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use MyintOo\LaravelStorageWrapper\Interfaces\StorageDriverInterface;
+use Enston\LaravelStorageWrapper\Interfaces\StorageDriverInterface;
 
 class LaravelStorageWrapperServiceProvider extends ServiceProvider
 {
